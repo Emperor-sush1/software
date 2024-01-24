@@ -2,6 +2,6 @@
 #!desc=阿里签到
 #!使用方法：surge
 [Script]
-aliyun = type=cron, cronexp="0 7,11 * * *", script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, timeout=60, wake-system=1
+aliyun = type=cron, cronexp="2 0,7 * * *", script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, timeout=60, wake-system=1
 [MITM]
 hostname = %APPEND% auth.alipan.com, auth.aliyundrive.com
