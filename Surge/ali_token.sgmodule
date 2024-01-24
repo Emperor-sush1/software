@@ -1,6 +1,8 @@
 #!name=阿里云获取 Token
 #!desc=阿里云获取 Token
 #!使用方法：打开阿里云即可
+[Script]
+
 aDriveCheckIn = type=http-request, pattern=^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token, script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, requires-body=true, max-size=-1, timeout=60
 [MITM]
 hostname = %APPEND% auth.alipan.com, auth.aliyundrive.com
