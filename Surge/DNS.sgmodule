@@ -1,10 +1,5 @@
 #!name=huz1: 🌐 DNS 备用
 #!desc=1.域名按所属DNS进行分流解析 2.路由器地址使用系统DNS进行解析 3.特殊地址使用规范DNS进行解析
-#!author=VirgilClyne
-#!homepage=https://github.com/VirgilClyne/GetSomeFries/wiki/🌐-DNS
-#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
-#!category=🍟 Fries
-
 [General]
 # ---(DNS 服务器)---
 # > 通过代理请求使用本地DNS映射结果
