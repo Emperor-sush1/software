@@ -4,7 +4,5 @@
 
 [Script]
 12123_Token = type=http-request,pattern=^https:\/\/miniappcsfw\.122\.gov\.cn:8443\/openapi\/invokeApi\/business\/biz,script-path=https://gitcode.net/4qiao/scriptable/raw/master/quanX/getToken_12123.js,requires-body=true,max-size=-1,timeout=60
-# aDriveCheckIn = type=http-request, pattern=^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token, script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, requires-body=true, max-size=-1, timeout=60
-
 [MITM]
 hostname = %APPEND% miniappcsfw.122.gov.cn:8443
