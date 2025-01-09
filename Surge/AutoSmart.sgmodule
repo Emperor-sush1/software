@@ -1,4 +1,6 @@
-
+#!name=GroupAuto
+#!desc=根据 api 返回的节点 (速度:持久化缓存非线性权重) 与 (延时:持久化缓存) 对节点进行优选
+#!arguments=group:name
 /* 2023-07-28 13:01:03
 作用: 
 · 如果策略组 节点变更 会重新缓存结果 重新取值
@@ -21,9 +23,7 @@
 # timecache=18    缓存到期时间(小时) 或 超过66个数据会清理旧的数据
 # avgnumber=30    缓存节点测试次数， 超过会清理
 # push            加参数为开启通知, 不加参数则不通知
-#!name=GroupAuto
-#!desc=根据 api 返回的节点 (速度:持久化缓存非线性权重) 与 (延时:持久化缓存) 对节点进行优选
-#!arguments=group:name
+
 
 [Panel]
 GroupAuto = script-name=GroupAuto,update-interval=3
