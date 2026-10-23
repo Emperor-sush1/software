@@ -12,7 +12,7 @@ if ($response.statusCode != 200) {
         $done({ title: "接口报错", subtitle: String($response.body).slice(0, 50), ip: "0.0.0.0" });
     } else {
         var cc = (obj["countryCode"] || "").toUpperCase();
-        var flag = "🌐";
+        var flag = "⛱";
         if (cc.length == 2) {
             flag = String.fromCodePoint(cc.charCodeAt(0) + 127397, cc.charCodeAt(1) + 127397);
         }
