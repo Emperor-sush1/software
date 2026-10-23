@@ -59,8 +59,8 @@ if ($response.statusCode != 200) {
         var isp = ispName ? getChineseISP(ispName) : "未知ISP";
 
         $done({
-            title: flag + " " + type + "  " + ipAddress,
-            subtitle: location + "  " + asn + "  " + isp,
+            title: flag  + "  " + ipAddress,
+            subtitle: location + "  " + asn + "  " + isp + "  " + type,
             ip: ipAddress
         });
     }
